@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.6</TargetFramework>
+    <DebugType>portable</DebugType>
+    <AssemblyName>RavenDB.AspNetCore.DataProtection</AssemblyName>
+    <PackageId>RavenDB.AspNetCore.DataProtection</PackageId>
+    <NetStandardImplicitPackageVersion>1.6.1</NetStandardImplicitPackageVersion>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.DataProtection" Version="1.1.1" />
+    <PackageReference Include="Raven.Client" Version="4.0.0-alpha-40012" />
+  </ItemGroup>
+
+</Project>
